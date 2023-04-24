@@ -93,7 +93,7 @@ main:after{
     width: 100%;
     height: 100vh;
     z-index: -1;
-    animation: mudarImagem 0.7;
+    animation: mudarImagem 1s;
 }
 
 .carrossel .imagem{
@@ -101,14 +101,16 @@ main:after{
     height: 100vh;
     object-fit: cover;
     display: none;
-    animation: mudarImagem 0.7;
+    animation: mudarImagem 1s;
 }
 
 .carrossel .imagem.ativa{
     display: block;
-    animation: mudarImagem 0.7;
+    
 }
-/* 
+
+/* ------------------------------------------------------------- Area abaixo ------------------------------------------------------------- */
+
 .areabaixo{
     display: flex;
     flex-direction: column;
@@ -117,12 +119,13 @@ main:after{
     position: relative;
     margin-top: -10px;
     margin-left: 20px;
-} */
+    
+}
 
 .areabaixo .imgfundo{
     object-fit: cover;
     display: block;
-    width: 70%;
+    width: 100%;
     height: 70%;
 }
 
@@ -131,7 +134,7 @@ main:after{
     font-size: 24px;
     color: #ffffff;
     line-height: 30px;
-
+    text-align: center;
 }
 
 
